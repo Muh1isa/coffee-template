@@ -205,7 +205,7 @@ li {
   position: absolute;
   display: flex;
   gap: 25px;
-  bottom: 140px;
+  bottom: 40px;
   left: 70px;
 }
 .section2__box {
@@ -251,4 +251,31 @@ li {
   .section2__box {
     width: 95%;
   }
+}
+.section3 {
+  height: 900px;
+  margin: 180px auto;
+}
+.section3__title {
+  color: #83888F;
+  font-size: 24px;
+  font-weight: 900;
+  margin: 0 0 0 75px;
+}
+.section3__dots-wrapper {
+  display: flex;
+  align-items: center;
+  margin: 50px 0 0 75px;
+}
+.section3__dot {
+  width: 40px;
+  height: 40px;
+  border: 1px solid #0E8784;
+  border-radius: 50%;
+}
+.section3 hr {
+  width: 400px;
+  height: 3px;
+  border: none;
+  background-color: #FDD6BA;
 }/*# sourceMappingURL=main.css.map */

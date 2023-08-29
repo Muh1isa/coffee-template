@@ -1,0 +1,27 @@
+.section3 {
+    height: 900px;
+    margin: 180px auto;
+    &__title {
+        color: #83888F;
+        font-size: 24px;
+        font-weight: 900;
+        margin: 0 0 0 75px;
+    }
+    &__dots-wrapper {
+        display: flex;
+        align-items: center;
+        margin: 50px 0 0 75px;
+    }
+    &__dot {
+        width: 40px;
+        height: 40px;
+        border: 1px solid #0E8784;
+        border-radius: 50%;
+    }
+    hr {
+        width: 400px;
+        height: 3px;
+        border: none;
+        background-color: #FDD6BA;
+    }
+}
