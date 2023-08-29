@@ -301,6 +301,34 @@ li {
   height: 3px;
   border: none;
   background-color: #FDD6BA;
+}
+
+.section3__wrapper {
+  display: flex;
+  gap: 140px;
+  margin: 70px 0 0 75px;
+}
+
+.section3__box {
+  width: 300px;
+}
+
+.section3__box-num {
+  font-size: 72px;
+  font-weight: 900;
+  color: #FDD6BA;
+}
+
+.section3__box-title {
+  width: 200px;
+  font-size: 32px;
+  font-weight: 900;
+  color: #333D4B;
+  margin: 30px 0;
+}
+
+.section3__btn {
+  margin: 80px 0 0 75px;
 } 
 
 /*# sourceMappingURL=main.css.map */

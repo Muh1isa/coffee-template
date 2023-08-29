@@ -24,4 +24,27 @@
         border: none;
         background-color: #FDD6BA;
     }
+    &__wrapper {
+        display: flex;
+        gap: 140px;
+        margin: 70px 0 0 75px;
+    }
+    &__box {
+        width: 300px;
+        &-num {
+            font-size: 72px;
+            font-weight: 900;
+            color: #FDD6BA;
+        }
+        &-title {
+            width: 200px;
+            font-size: 32px;
+            font-weight: 900;
+            color: #333D4B;
+            margin: 30px 0;
+        }
+    }
+    &__btn {
+        margin: 80px 0 0 75px;
+    }
 }
